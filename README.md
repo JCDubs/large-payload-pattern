@@ -1,8 +1,10 @@
-# Welcome to your CDK TypeScript project
+# AWS Large Payload Pattern
 
-This is a blank project for CDK development with TypeScript.
+The AWS large payload pattern project provides an example of how to use s3 pre-signed URL's to transfer large payloads through AWS event based services with small payload size limits such AWS SNS, SQS and EventBridge.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+An article explaining the functionality and code base can be found [here](https://jcdubs.medium.com/aws-large-payload-pattern-e3e4c57d402d). The below diagram outlines the full architecture of the solution.
+
+![image info](./images/large-payload.png)
 
 ## Useful commands
 

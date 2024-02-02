@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/file-size.ts",
+  "app": "npx ts-node --prefer-ts-exts infra/bin/large-payload-pattern.ts",
   "watch": {
     "include": [
       "**"
